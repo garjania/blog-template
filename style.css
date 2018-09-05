@@ -1,5 +1,5 @@
 body {
-	background-image: url("body image.png");
+	background-image: url("body-image.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -8,8 +8,8 @@ body {
 
 .content{
 	background-color: rgb(39, 41, 45, 0.99);
-	height: 3000px;
-	width: 78%;
+	width: 100%;
+	margin-bottom: 30px;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 10px;
 	float: right;
@@ -17,11 +17,42 @@ body {
 
 .identity{
 	background-color: rgba(39, 41, 45, 0.99);
-	width: 20%;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%
 	float: left;
 	text-align: center;
+}
+
+.infostyle{
+	width: 20%;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	float: left;
+	text-align: center;
+}
+
+.contentstyle{
+	width: 78%;
+	padding-bottom: 100px;
+	margin-bottom: 20px;
+	float: right;
+	text-align: center;
+}
+
+.itemcell{
+	background-color: rgba(39, 41, 45, 0.99);
+	width: 100%;
+	height: 40px;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.itemcell:hover{
+	background-color: rgb(101, 210, 110);
 }
 
 .main{
