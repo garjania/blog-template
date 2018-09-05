@@ -1,0 +1,45 @@
+body {
+	background-image: url("body image.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: fixed;
+}
+
+.content{
+	background-color: rgb(39, 41, 45, 0.99);
+	height: 3000px;
+	width: 78%;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	float: right;
+}
+
+.identity{
+	background-color: rgba(39, 41, 45, 0.99);
+	width: 20%;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	float: left;
+	text-align: center;
+}
+
+.main{
+	overflow: scroll;
+	width: 90%;
+	margin: 50px;
+}
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile{
+	border-radius: 50%;
+	width: 120px;
+	margin-top: 20px;
+}
+
+p{
+	color: white;
+}
